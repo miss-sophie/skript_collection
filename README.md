@@ -1,4 +1,5 @@
-# Collection of simple Scripts
+# Script collection
+Collection of some simple Scripts
 
 ### License
 
