@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Seperates RAW from remaining photos
+# Parameter: split_canon.sh <TARGET>
 TARGET=$1
 
 if [[ -z $TARGET ]]; then
