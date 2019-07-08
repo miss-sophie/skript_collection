@@ -18,6 +18,7 @@ elif [ ! -d "$TARGET_DIR" ]; then
 	echo "Provided path is not a directory. Exiting."
 	exit 1
 fi
+cd $TARGET_DIR
 
 mkdir $ROLE_NAME
 cd $ROLE_NAME || exit
@@ -34,5 +35,5 @@ mkdir "$a_dir"
 done
 
 touch ./README.md
-echo "Done"
+echo "Done with all, have a great day :)"
 exit 0
